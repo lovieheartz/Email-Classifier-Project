@@ -43,7 +43,7 @@ pip install -r requirements.txt
 python train_model.py
 python app.py
 -Then test the api using POST method on the Running URL
-<br>
+
 -in POSTMAN
 
 Set Request Body:
