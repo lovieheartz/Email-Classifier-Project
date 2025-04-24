@@ -41,4 +41,4 @@ This project:
 ```bash
 pip install -r requirements.txt
 python train_model.py
-python run_api.py
+python app.py
