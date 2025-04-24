@@ -36,13 +36,19 @@ This project:
 - Classifies email into types: Request, Incident, Problem
 - Exposes a Flask API
 
-## Run the Project locally
+## Run the Project 
 
 ```bash
 pip install -r requirements.txt
 python train_model.py
 python app.py
 -Then test the api using POST method on the Running URL
+<br>
+-in POSTMAN
+
+Set Request Body:
+
+In the Body tab of Postman, select the raw option and choose JSON from the dropdown list.
 
 On hugging face:
 -https://lovieheartz-email-classifier-api.hf.space/classify
